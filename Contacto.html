@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEFi</title>
+        <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div class="contenedorp">
+                <div class="contenedor">
+                    <div class="logo">
+                        <a class="hv" href="./index.html"></a>
+                    </div>
+                    <div class="navmin">
+                        <div class="icomenu">
+                            <label for="menu" class="nav__label">
+                                <img src="./assets/img/menu.png" alt="" class="nav__img" >
+                            </label>
+                            <input type="checkbox" id="menu" class="nav__input">
+
+                            <nav class="menudesp">
+                                <ul>
+                                    <li><a id="item1" href="./EducacionFinanciera.html">Educación Financiera</a></li>
+                                    <li><a id="item2"href="./DondeEstudiar.html">Donde estudiar</a></li>
+                                    <li><a id="item3"href="./Informacion.html">Información</a></li>
+                                    <li><a id="item4"href="./contacto.html">Contacto</a></li>
+                                    <li><a id="item5"href="./Nosotros.html">Nosotros</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    
+                        
+
+                    </div>
+
+                    <div class="navmax">
+                        <nav>
+                            <ul>
+                                <li><a href="./EducacionFinanciera.html">Educación Financiera</a></li>
+                                <li><a href="./DondeEstudiar.html">Donde estudiar</a></li>
+                                <li><a href="./Informacion.html">Información</a></li>
+                                <li><a id="active" href="./Contacto.html">Contacto</a></li>
+                                <li><a href="./Nosotros.html">Nosotros</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>    
+        </header>  
+        <main>
+            <div class="imagen-de">
+                <img src="./assets/img/oficina.jpg" alt="oficina">
+            </div>
+            <h1 class="tit-con">Envianos tu consulta</h1>
+            <div class="formulario">
+                <form class="row needs-validation" novalidate> 
+                    <!-- needs-validation" novalidate>  es lo que se agregó
+                    al final del body, está el script al que responde -->
+                
+                    <div class="col-10">
+                   
+                        <label for="nombreInput" class="form-label" >Nombre y Apellido:</label>
+                        <input type="text" id="nombreInput" class="form-control" placeholder="Ingresá tu nombre y apellido" required>
+                        <!-- Mensajes para validación   -->
+                        <div class="valid-feedback">Campo OK</div>
+                        <div class="invalid-feedback">Complete los datos</div>
+                    
+                    </div>
+                
+                    <div class="col-10">
+                    
+                        <label for="emailInput" class="form-label" >E-Mail:</label>
+                        <input type="email" id="emailInput" class="form-control" placeholder="Ingresá tu E-Mail" required>
+                        <!-- Mensajes para validación   -->
+                        <div class="valid-feedback">Campo OK</div>
+                        <div class="invalid-feedback">Complete los datos</div>
+                    
+                    </div>
+                    
+                    
+                    <div class="col-4">
+                    
+                        <label for="celInput" class="form-label" >Telefono/Celular: </label>
+                        <input type="text" id="celInput" class="form-control" placeholder="Ingresá tu Telefono" required>
+                        <!-- Mensajes para validación   -->
+                        <div class="valid-feedback">Campo OK</div>
+                        <div class="invalid-feedback">Complete los datos</div>
+                    
+                    </div>
+                    
+                    <div class="col-4">
+                    
+                        <label for="paisInput" class="form-label">País: </label>
+                        
+                        <select class="form-select" aria-label="Default select example">
+                            
+                            <option selected value="1">Argentina</option>
+                            <option value="2">Brasil</option>
+                            <option value="3">Uruguay</option>
+                            <option value="4">Chile</option>
+                            <option value="5">Peru</option>
+                            <option value="6">Bolivia</option>
+                            <option value="7">Colombia</option>
+                            <option value="8">Venezuela</option>
+                            <option value="9">Otro</option>       
+                        </select>
+                        <!-- Mensajes para validación   -->
+                        <div class="valid-feedback">Campo OK</div>
+                        <div class="invalid-feedback">Complete los datos</div>
+                        
+                    </div> 
+                    <div class="col-10">
+                    
+                        <label for="conoceInput" class="form-label" >Como nos conociste?</label>
+                        <textarea type="text" id="nombreInput" class="form-control" ></textarea> 
+                    
+                    </div>
+                    
+                    <div class="col-10">
+                    
+                        <label for="consultaInput" class="form-label" >Cual es tu consulta?</label>
+                        <textarea type="text" id="consultaInput" class="form-control" cols="3" rows="3"></textarea> 
+                    
+                    </div>
+                    <div class="col-10">
+                        <div class="form-check">
+                             <input type="checkbox" id="checkbox" class="form-check-input">
+                            <label for="checkbox" class="form-check-label"> Me gustaría recibir mas información </label>
+                    
+                        </div>
+                    
+                        <div class="col-12">
+                        <button type="submit" class="btn btn-primary" >Enviar</button>
+                    
+                    </div>
+                    
+                    </div>
+                     
+                    
+                    
+                </form>
+                
+            </div>
+            <h1 class="tit-con">Donde estamos</h1>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1113283208683!2d-58.37469008423697!3d-34.60134626488064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaccc66d9f7d%3A0x2ee3afaee67e1a99!2sReconquista%20559%2C%20C1003%20ABK%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1666038417702!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+            
+        </main> 
+        <footer>
+            <p>Copyright &#169 2022-2022 Wefi & friends.</p>
+            <p>Reconquesta 559 CABA</p>
+            <div class="social">
+                <a  href="https://Facebook.com"
+                    class="facebook"
+                    target="_blank" title="Seguinos en Facebook"></a>
+                <a  href="https://Instagram.com" 
+                    class="instagram"
+                    target="_blank" title="Seguinos en Instagram"></a>
+                <a  href="https://Linkedin.com" 
+                    class="linkedin"
+                    target="_blank" title="Seguinos en Linkedin"></a>
+                <a  href="https://youtube.com" 
+                    class="youtube"
+                    target="_blank" title="Accede al canal de Youtube"></a>
+                <a href="https://web.whatsapp.com/"
+                    class="whatsapp"
+                    target="_blank" title="Mandanos tu mensaje"></a>    
+            </div>
+           
+        </footer>    
+        <script>        
+            (function () {
+              'use strict'
+            
+              // Obtener todos los formularios a los que queremos aplicar estilos de validación de Bootstrap personalizados
+              var forms = document.querySelectorAll('.needs-validation')
+            
+              //Recorremos los forms y evitamos en envío sin validacion
+              Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                  form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                      event.preventDefault()
+                      event.stopPropagation()
+                    }else{
+                        alert('Datos correctos!!')
+                    }
+                    form.classList.add('was-validated')
+                  }, false)
+                })
+            })()
+                </script>    
+
+        
+    </body>
+</html> 
+

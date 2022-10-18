@@ -1,0 +1,135 @@
+{
+"CotizCierre": [
+                    {
+                    "ticker":"alua",
+                    "name":"ALUAR",
+                    "last":134.00,
+                    "variac":"0.75%"
+                    },
+                    {
+                    "ticker":"bbar",
+                    "name":"BBVA",
+                    "last":328.40,
+                    "variac":"-0.55%"
+                    },
+                    {
+                    "ticker":"bma",
+                    "name":"BANCO MACRO",
+                    "last":465.55,
+                    "variac":"-2.77%"
+                    },    
+                    {
+                    "ticker":"byma",
+                    "name":"BYMA",
+                    "last":181.50,
+                    "variac":"-0.41%"
+                    },
+                    {
+                    "ticker":"cepu",
+                    "name":"CENTRAL PUERTO",
+                    "last":139.60,
+                    "variac":"-3.97%"
+                    },
+                    {
+                    "ticker":"come",
+                    "name":"SOCIEDAD COMERCIAL DEL PLATA",
+                    "last":15.10,
+                    "variac":"0.66%"
+                    },
+                    {
+                    "ticker":"cres",
+                    "name":"CRESUD",
+                    "last":166.55,
+                    "variac":"-4.58%"
+                    },
+                    {
+                    "ticker":"cvh",
+                    "name":"CABLEVISIÓN HOLDING",
+                    "last":741.00,
+                    "variac":"1.15%"
+                    },
+                    {
+                    "ticker":"edn",
+                    "name":"EDENOR",
+                    "last":105.20,
+                    "variac":"-1.55%"
+                    },
+                    {
+                    "ticker":"ggal",
+                    "name":"GRUPO FINANCIERO GALICIA",
+                    "last":241.25,
+                    "variac":"-2.44%"
+                    },
+                    {
+                    "ticker":"harg",
+                    "name":"HOLCIM ARGENTINA",
+                    "last":215.50,"variac":"-3.15%"
+                    },
+                    {
+                    "ticker":"loma",
+                    "name":"LOMA NEGRA CIA INDUSTRIAL",
+                    "last":419.55,
+                    "variac":"0.27%"
+                    },
+                    {
+                    "ticker":"mirg",
+                    "name":"MIRGOR",
+                    "last":3760.00,
+                    "variac":"-0.38%"
+                    },
+                    {
+                    "ticker":"pamp",
+                    "name":"PAMPA ENERGÍA",
+                    "last":300.00,
+                    "variac":"0.13%"
+                    },
+                    {
+                    "ticker":"supv",
+                    "name":"GRUPO SUPERVIELLE",
+                    "last":113.90,
+                    "variac":"-0.25%"
+                    },
+                    {
+                    "ticker":"teco2",
+                    "name":"TELECOM ARGENTINA",
+                    "last":266.15,
+                    "variac":"-0.54%"
+                    },
+                    {
+                    "ticker":"tgno4",
+                    "name":"TRANSPORTADORA GAS DEL NORTE",
+                    "last":159.75,
+                    "variac":"1.26%"
+                    },
+                    {
+                    "ticker":"tgsu2",
+                    "name":"TRANSPORTADORA GAS DEL SUR",
+                    "last":511.50,
+                    "variac":"0.43%"
+                    },
+                    {
+                    "ticker":"tran",
+                    "name":"TRANSENER",
+                    "last":91.30,
+                    "variac":"-0.54%"
+                    },
+                    {
+                    "ticker":"txar",
+                    "name":"TERNIUM ARGENTINA",
+                    "last":153.50,
+                    "variac":"-0.16%"
+                    },
+                    {
+                    "ticker":"valo",
+                    "name":"BANCO DE VALORES ",
+                    "last":61.50,
+                    "variac":"0.81%"
+                    },
+                    {
+                    "ticker":"ypfd",
+                    "name":"YPF",
+                    "last":2233.00,
+                    "variac":"-3.1%"
+                    }
+                ]
+}
