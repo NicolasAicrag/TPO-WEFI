@@ -180,7 +180,7 @@
             (function () {
               'use strict'
             
-              // Obtener todos los formularios a los que queremos aplicar estilos de validación de Bootstrap personalizados
+              // Formularios a validar
               var forms = document.querySelectorAll('.needs-validation')
             
               //Recorremos los forms y evitamos en envío sin validacion
@@ -190,8 +190,6 @@
                     if (!form.checkValidity()) {
                       event.preventDefault()
                       event.stopPropagation()
-                    }else{
-                        alert('Datos correctos!!')
                     }
                     form.classList.add('was-validated')
                   }, false)
