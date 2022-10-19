@@ -190,7 +190,9 @@
                     if (!form.checkValidity()) {
                       event.preventDefault()
                       event.stopPropagation()
-                    }
+                    }else{
+                         alert('Datos correctos!!')
+                         }
                       
                     form.classList.add('was-validated')
                   }, false)
